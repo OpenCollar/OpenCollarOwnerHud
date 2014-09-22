@@ -162,7 +162,11 @@ default
             else if (button == "Menu")
                 Menu("Main", id);
             else if (button == "Beckon")
-                llMessageLinked(LINK_THIS, SEND_CMD_PICK_SUB, "beckon", "");
+            {
+                vector abspos = llGetRegionCorner() + llGetPos()+<1.5,0,0>*llGetRot();
+                string tpcmd = "tpto:" + (string)abspos.x + "/" + (string)abspos.y + "/" + (string)abspos.z + "=force";
+                llMessageLinked(LINK_THIS, SEND_CMD_PICK_SUB, tpcmd, "");
+            }
             else if (button == "Couples")
                 llMessageLinked(LINK_THIS, SEND_CMD_PICK_SUB, "couples", "");
             else if (button == "Leash")
