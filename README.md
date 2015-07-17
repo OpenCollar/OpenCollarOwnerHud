@@ -1,6 +1,4 @@
-OpenCollar Owner HUD
---------------------
+## OpenCollar Owner HUD [▶ Redirect](https://github.com/OpenCollar/opencollar/tree/master/src/remote "My source has a new home!")
 
-The Owner HUD provides an alternative style to operate the collar. It is compatible with OpenCollar 3.9 API versions. Issues with corrupted assets could be resolved for 3.940 versions and greater. As HUDs in general are a matter of personal preference, our goal is to keep this gadget in balance to community dynamics and overall feedback.
 
-For more information, please visit [our website](http://www.opencollar.at/ownerhud.html "Owner HUD Manual Page").
+This repository is now obsolete. Its files and history have been merged into the [OpenCollar upstream](https://github.com/OpenCollar/opencollar).
